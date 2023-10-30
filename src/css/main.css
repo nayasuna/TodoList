@@ -4,57 +4,51 @@ html {
   line-height: 1.15;
 }
 
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "RocknRoll One", sans-serif;
-} */
+
 
 body {
-  background: white;
+  background: alice blue;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  overflow-y: scroll; /* Mengaktifkan scroll vertikal (scroll y) */
-  /* color: #3A4D39; */
+  overflow-y: scroll; 
 }
 
-/* background */
+
 .App {
   display: flex;
   flex-direction: column;
   color: #3a4d39;
-  /* background: #0174BE; */
-  justify-content: center; /* Agar elemen berada di tengah secara vertikal */
-  align-items: center; /* Agar elemen berada di tengah secara horizontal */
-  margin: 0 10rem; /* Memberikan margin di sebelah kiri dan kanan */
+ 
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 10rem;
   height: Screen;
 }
 
-/* what the plan for today */
+
 .App h1 {
   display: inline;
   text-align: center;
   margin-bottom: 2rem;
   color: #000000;
 
-  /* text-shadow: 0 0 5px #433aa8, 3px -1px 5px #ece3ce; */
+  
 }
 
 /* input */
 .addTodos {
   display: flex;
   justify-content: center;
-  /* color: #000000; */
+  
 }
-/* dalamnya input */
+
 .todo-input {
   min-width: 15rem;
   width: 40vw;
-  /* background: black; */
+ 
   max-height: 2.5rem;
-  /* background-color: #e1ebfd; */
+
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -69,7 +63,6 @@ body {
 
 .add-btn {
   margin-left: 1rem;
-  /* background-color: #0174be; */
   color: white;
   font-size: 1.5rem;
   width: 3.2rem;
@@ -80,9 +73,9 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 20%;
-  box-shadow: none; /* Menghilangkan shadow */
+  box-shadow: none; 
 }
-/* ketika di tekan */
+
 .button.all {
   background-color: #03c988;
 }
@@ -102,17 +95,12 @@ body {
 
 .displaytodos {
   margin-top: 3rem;
-  /* display: flex;
-  flex-direction: column; */
   align-items: center;
 
-  /* margin: 0 10rem; Memberikan margin di sebelah kiri dan kanan */
+  
 }
 
-/* .displaytodos .buttons {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-} */
+
 
 .displaytodos .buttons button {
   margin: 0.5rem;
@@ -130,22 +118,16 @@ body {
   margin-right: 1rem;
 }
 
-/* .kotak {
-  list-style: none;
-  display: flex;
-  align-self: flex-start;  
-  flex-wrap: wrap;
 
-} */
 .border1 {
-  border: 2px solid lightgray; /* Mengganti warna border menjadi merah */
+  border: 2px solid lightgray; 
   width: 350px;
   padding: 9px;
 }
 .form-checkbox {
-  width: 30px; /* Sesuaikan lebar sesuai kebutuhan */
-  height: 25px; /* Sesuaikan tinggi sesuai kebutuhan */
-  padding: 5px; /* Sesuaikan padding sesuai kebutuhan */
+  width: 30px; 
+  height: 25px; 
+  padding: 5px;
   text-decoration: line-through;
 }
 
@@ -155,22 +137,16 @@ body {
 .input-container {
   margin-right: 1rem;
   display: flex;
-  align-items: center; /* Mengatur item secara vertikal di tengah */
-  justify-content: center; /* Mengatur item secara horizontal di tengah */
-  /* Tambahkan properti lain sesuai kebutuhan Anda */
+  align-items: center; 
+  justify-content: center; 
+
 }
 .card {
   display: flex;
   flex-direction: column;
-  /* border-color :  ; */
-
-  /* margin:  1rem 1rem 0; */
-  /* height: 4rem;
-  width: 18rem; */
   border-radius: 0.5rem;
   padding: 0.5rem;
 
-  /* position: relative;  */
 }
 
 .silang {
@@ -178,26 +154,9 @@ body {
   background: none;
   border: none;
   font-size: 24px;
-  /* Sesuaikan ukuran ikon sesuai kebutuhan Anda */
-}
-/* .card textarea {
-  padding: 0.5rem;
-  border-radius: 8px;
   
-  background-color: #e1ebfd;
+}
 
-  color: #271c6c;
-  height: 70%;
-} */
-/* .card textarea:disabled {
-  background-color: transparent;
-} */
-
-/* .card .btns {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-} */
 
 .card .btns button {
   border-radius: 20%;
@@ -206,17 +165,17 @@ body {
   font-size: 1.4rem;
   cursor: pointer;
   color: #ece3ce;
-  /* background-color: transparent; */
+  
 }
 
 .card.btns button:focus {
   outline: none;
 }
 
-/* done */
+
 
 .completed {
-  text-decoration: line-through; /* Menambahkan garis horizontal di bawah teks */
+  text-decoration: line-through; 
 }
 
 @media Screen and (min-width: 640px) {
